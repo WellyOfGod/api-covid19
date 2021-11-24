@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'brasilio' => [
+        'token' => env('BRASILIO_TOKEN'),
+        'url' => env('BRASILIO_URL'),
+    ]
+
 ];
