@@ -1,7 +1,7 @@
 # Desafio API Brasil.Io - Por Wellington Lopes de Deus
 O desafio consiste em consumir API do [Brasil.io](https://blog.brasil.io/2020/10/31/nossa-api-sera-obrigatoriamente-autenticada/) retornando os casos de Covid19 em um período e estado (UF), e criar um ranking Top10 das cidades com maior índice de covid no período, utilizando PHP8, Laravel 8 e MySQL.
 
-Todos os dados foram obtidos pelas Secretarias de Saúde das Unidades Federativas e foram tratados por Álvaro Justen e colaboradores da Brasil.io. Os dados dados convertidos estão sob a licença Creative Commons Attribution ShareAlike.
+Todos os dados foram obtidos pelas Secretarias de Saúde das Unidades Federativas e foram tratados por Álvaro Justen e colaboradores da Brasil.io. Os dados convertidos estão sob a licença Creative Commons Attribution ShareAlike.
 
 ## Levantando o ambiente
 Conforme descrito na documentação da API [Brasil.io](https://blog.brasil.io/2020/10/31/nossa-api-sera-obrigatoriamente-autenticada/) é necessário realizar o cadastro e solicitar o token de acesso da API.
