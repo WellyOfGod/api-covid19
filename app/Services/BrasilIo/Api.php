@@ -17,12 +17,11 @@ class Api
         ->baseUrl(config('services.brasilio.url'));
     }
 
-    public function casesByStatePeriod(string $dateFrom, string $dateTo, string $state)
+    public function casesByStateDate(string $date, string $state)
     {
-        $casesByFromDate = $this->client->get("caso/data?date={$dateFrom}&state={$state}&")->object();
-
-        $casesByToDate = $this->client->get("caso/data?date={$dateTo}&state={$state}&")->object();
-
-        dd($casesByFromDate, $casesByToDate);
+        return $this->client->get('caso/data',[
+            'date' => $date,
+            'state' => $state
+        ])->json();
     }
 }
