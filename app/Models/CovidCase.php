@@ -9,7 +9,13 @@ class CovidCase extends Model
 {
     use HasFactory;
 
+    /**
+     * @var string
+     */
     protected $table = 'covid_cases';
 
+    /**
+     * @var string[]
+     */
     protected $guarded = ['id'];
 }
